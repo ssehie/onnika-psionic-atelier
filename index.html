@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A local art-led storefront concept for Onnika Vanover.">
+  <title>Onnika Vanover — Psionic Atelier</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="store.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the art</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Onnika Vanover, home">
+      <span>Onnika</span><i>Vanover</i>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#worlds">Worlds</a>
+      <a href="#prints">Print lab</a>
+      <a href="#artist">The artist</a>
+      <a class="nav-cta" href="#contact">Start a project</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="kicker"><span></span> Artist · image-maker · powerful psion</p>
+        <h1>She paints the<br><em>signal beneath</em><br>the surface.</h1>
+        <p class="hero-note">Portraits, strange objects, lived-in worlds, and color charged with presence. Art for people who feel more than one reality at once.</p>
+        <div class="hero-actions">
+          <a class="button button-hot" href="#prints">Enter the print lab</a>
+          <a class="text-link" href="#worlds">Read the visual signal <span>↘</span></a>
+        </div>
+      </div>
+      <div class="hero-stage" aria-label="Layered presentation of Onnika's artwork">
+        <figure class="hero-art hero-art-main">
+          <img src="assets/24616c_8d76e27499b348969c921bb1641ddc5d~mv2.jpg" alt="Painted scene of two figures seated back-to-back in red against a blue field">
+        </figure>
+        <figure class="hero-art hero-art-orbit">
+          <img src="assets/24616c_d374c88c54a041bb978afd620e29d5b3~mv2.jpg" alt="Onnika standing before a vivid flowing mural">
+        </figure>
+        <div class="signal-mark" aria-hidden="true"><b>OV</b><span>PSI / 07</span></div>
+      </div>
+      <p class="scroll-cue" aria-hidden="true">Scroll to tune the signal ↓</p>
+    </section>
+
+    <section class="manifesto" id="worlds">
+      <p class="section-label">The visual frequency</p>
+      <div class="manifesto-grid">
+        <h2>Not one style.<br><span>One force.</span></h2>
+        <div class="manifesto-copy">
+          <p>Onnika’s work moves between observed life and inner weather. Faces carry histories. Rooms tilt into feeling. Ordinary objects become charged evidence.</p>
+          <p>The through-line is attention: warm, unguarded, exacting—and alive to what most people miss.</p>
+        </div>
+      </div>
+      <div class="world-strip" aria-label="Three paths through the artwork">
+        <article class="world-card portrait-world">
+          <img src="assets/24616c_592dba1dc9ce4e2e964a0a9703b430f9~mv2.jpeg" alt="Painted portrait of a person with curly hair and glasses">
+          <div><span>01 / PRESENCE</span><h3>Inner portraits</h3><p>People seen as full, complicated worlds.</p></div>
+        </article>
+        <article class="world-card object-world">
+          <img src="assets/24616c_f5a5bc95246b4ce59c7776236849c09c~mv2.jpg" alt="Expressive painting of a studio sink and scattered art materials">
+          <div><span>02 / MATTER</span><h3>Charged spaces</h3><p>Rooms and objects humming with memory.</p></div>
+        </article>
+        <article class="world-card psi-world">
+          <img src="assets/24616c_c967c193577f404086e2f5fe5b3aad4b~mv2.jpg" alt="Ceramic artwork depicting a figure with a sword surrounded by marks">
+          <div><span>03 / PSI</span><h3>Symbolic forms</h3><p>Image, vessel, archetype, and psychic armor.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="print-lab" id="prints">
+      <div class="print-heading">
+        <div>
+          <p class="section-label">Print lab / local concept shop</p>
+          <h2>Take a signal<br>home.</h2>
+        </div>
+        <p>Build a print set by subject and display medium. Final titles, editions, sizes, prices, availability, and fulfillment stay with Onnika.</p>
+      </div>
+
+      <div class="shop-controls" aria-label="Filter print collection">
+        <fieldset data-filter-group="world">
+          <legend>Browse by world</legend>
+          <button class="filter active" type="button" data-filter="all" aria-pressed="true">All work</button>
+          <button class="filter" type="button" data-filter="portrait" aria-pressed="false">Portraits</button>
+          <button class="filter" type="button" data-filter="place" aria-pressed="false">Painted worlds</button>
+          <button class="filter" type="button" data-filter="symbol" aria-pressed="false">Psionic forms</button>
+        </fieldset>
+        <fieldset data-medium-group>
+          <legend>Preview as</legend>
+          <button class="medium active" type="button" data-medium="paper" aria-pressed="true">Fine-art paper</button>
+          <button class="medium" type="button" data-medium="cotton" aria-pressed="false">Textured cotton</button>
+          <button class="medium" type="button" data-medium="canvas" aria-pressed="false">Stretched canvas</button>
+        </fieldset>
+      </div>
+
+      <p class="results-line" aria-live="polite"><strong data-result-count>9</strong> signals tuned · previewing <span data-medium-label>fine-art paper</span></p>
+      <div class="print-grid" data-print-grid>
+        <article class="print-card wide" data-world="portrait" data-name="Between Moves">
+          <div class="print-image"><img src="assets/24616c_8d76e27499b348969c921bb1641ddc5d~mv2.jpg" alt="Two painted figures seated back-to-back"></div>
+          <div class="print-meta"><div><span>Portrait / narrative</span><h3>Between Moves</h3></div><button type="button" class="collect">Add to print set <span>+</span></button></div>
+        </article>
+        <article class="print-card tall" data-world="portrait" data-name="Direct Current">
+          <div class="print-image"><img src="assets/24616c_592dba1dc9ce4e2e964a0a9703b430f9~mv2.jpeg" alt="Painted seated portrait"></div>
+          <div class="print-meta"><div><span>Portrait / presence</span><h3>Direct Current</h3></div><button type="button" class="collect">Add to print set <span>+</span></button></div>
+        </article>
+        <article class="print-card square" data-world="symbol" data-name="The Blade Knows">
+          <div class="print-image"><img src="assets/24616c_c967c193577f404086e2f5fe5b3aad4b~mv2.jpg" alt="Ceramic figure holding a sword"></div>
+          <div class="print-meta"><div><span>Symbol / object</span><h3>The Blade Knows</h3></div><button type="button" class="collect">Add to print set <span>+</span></button></div>
+        </article>
+        <article class="print-card wide" data-world="place" data-name="Blue House Memory">
+          <div class="print-image"><img src="assets/24616c_d344648bdae843f0b573ff37b78eb851~mv2.jpg" alt="Expressive blue and rust painting of a house exterior"></div>
+          <div class="print-meta"><div><span>Place / impression</span><h3>Blue House Memory</h3></div><button type="button" class="collect">Add to print set <span>+</span></button></div>
+        </article>
+        <article class="print-card wide" data-world="place" data-name="Studio Sink">
+          <div class="print-image"><img src="assets/24616c_f5a5bc95246b4ce59c7776236849c09c~mv2.jpg" alt="Expressive painting of a studio sink"></div>
+          <div class="print-meta"><div><span>Still life / energy</span><h3>Studio Sink</h3></div><button type="button" class="collect">Add to print set <span>+</span></button></div>
+        </article>
+        <article class="print-card wide" data-world="place" data-name="Soft Debris">
+          <div class="print-image"><img src="assets/24616c_b65c61cfc5374b3b983b5b9ae8dd0181~mv2.jpg" alt="Expressive still life with bags, cups and containers"></div>
+          <div class="print-meta"><div><span>Still life / color</span><h3>Soft Debris</h3></div><button type="button" class="collect">Add to print set <span>+</span></button></div>
+        </article>
+        <article class="print-card wide" data-world="portrait" data-name="The Many Looking Back">
+          <div class="print-image"><img src="assets/24616c_943d6e6c876e42a4bc45d1ff3bf435a9~mv2.jpg" alt="Portrait surrounded by monochrome faces"></div>
+          <div class="print-meta"><div><span>Portrait / psyche</span><h3>The Many Looking Back</h3></div><button type="button" class="collect">Add to print set <span>+</span></button></div>
+        </article>
+        <article class="print-card square" data-world="symbol" data-name="Game Room Oracle">
+          <div class="print-image"><img src="assets/24616c_d374c88c54a041bb978afd620e29d5b3~mv2.jpg" alt="Onnika beside an oversized game-room artwork"></div>
+          <div class="print-meta"><div><span>Installation / play</span><h3>Game Room Oracle</h3></div><button type="button" class="collect">Add to print set <span>+</span></button></div>
+        </article>
+        <article class="print-card square" data-world="symbol" data-name="Electric Bloom">
+          <div class="print-image"><img src="assets/24616c_be7e2d0131ed47b79f4475cc0a3a1f8c~mv2.jpg" alt="Colorful abstract artwork"></div>
+          <div class="print-meta"><div><span>Color study / pulse</span><h3>Electric Bloom</h3></div><button type="button" class="collect">Add to print set <span>+</span></button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="artist" id="artist">
+      <div class="artist-image"><img src="assets/24616c_d374c88c54a041bb978afd620e29d5b3~mv2.jpg" alt="Onnika smiling before a colorful mural"></div>
+      <div class="artist-copy">
+        <p class="section-label">Onnika Vanover / artist profile</p>
+        <h2>Open eyes.<br>Strong signal.</h2>
+        <p>Onnika creates expressive, personal work across portraits, painted spaces, objects, commissions, and live experiences. Her power is not distance or mystery—it is radical attention.</p>
+        <a class="button button-dark" href="#contact">Commission your own world</a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="kicker"><span></span> The portal is open</p>
+      <h2>Bring her the person,<br>place, animal, or feeling<br>you cannot forget.</h2>
+      <div class="contact-bottom">
+        <a href="#top">Start a commission <span>↗</span></a>
+        <p>Local concept preview<br>Contact and purchase actions do not submit</p>
+      </div>
+    </section>
+  </main>
+
+  <aside class="signal-bag" aria-label="Print set" aria-live="polite">
+    <span>Print set</span><strong data-bag-count>0</strong><button type="button" data-clear-bag>Clear</button>
+  </aside>
+</body>
+</html>
+
