@@ -3,36 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="A local art-led storefront concept for Onnika Vanover.">
-  <title>Onnika Vanover — Psionic Atelier</title>
+  <meta name="description" content="Explore the portfolio, services, and print-lab preview of artist Onnika Vanover.">
+  <title>Onnika Vanover — Artist &amp; Image-Maker</title>
   <link rel="stylesheet" href="styles.css">
   <script src="store.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to the art</a>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Onnika Vanover, home">
+    <a class="brand" href="index.html" aria-label="Onnika Vanover, home">
       <span>Onnika</span><i>Vanover</i>
     </a>
     <nav aria-label="Main navigation">
-      <a href="#worlds">Worlds</a>
-      <a href="#prints">Print lab</a>
-      <a href="#artist">The artist</a>
-      <a class="nav-cta" href="#contact">Start a project</a>
+      <a class="nav-pill" href="portfolio.html">Portfolio</a>
+      <a class="nav-pill" href="services.html">Services</a>
+      <a class="nav-pill nav-shop" href="#prints">Shop</a>
     </nav>
   </header>
 
   <main id="main">
-    <section class="hero" id="top">
-      <div class="hero-copy">
-        <p class="kicker"><span></span> Artist · image-maker · powerful psion</p>
-        <h1>She paints the<br><em>signal beneath</em><br>the surface.</h1>
-        <p class="hero-note">Portraits, strange objects, lived-in worlds, and color charged with presence. Art for people who feel more than one reality at once.</p>
-        <div class="hero-actions">
-          <a class="button button-hot" href="#prints">Enter the print lab</a>
-          <a class="text-link" href="#worlds">Read the visual signal <span>↘</span></a>
-        </div>
-      </div>
+    <section class="hero hero-art-first" id="top">
       <div class="hero-stage" aria-label="Layered presentation of Onnika's artwork">
         <figure class="hero-art hero-art-main">
           <img src="assets/24616c_8d76e27499b348969c921bb1641ddc5d~mv2.jpg" alt="Painted scene of two figures seated back-to-back in red against a blue field">
@@ -40,52 +30,91 @@
         <figure class="hero-art hero-art-orbit">
           <img src="assets/24616c_d374c88c54a041bb978afd620e29d5b3~mv2.jpg" alt="Onnika standing before a vivid flowing mural">
         </figure>
-        <div class="signal-mark" aria-hidden="true"><b>OV</b><span>PSI / 07</span></div>
+        <div class="signal-mark" aria-hidden="true"><b>OV</b><span>ART / 07</span></div>
       </div>
-      <p class="scroll-cue" aria-hidden="true">Scroll to tune the signal ↓</p>
+      <div class="hero-copy compact-intro">
+        <p class="kicker"><span></span> Artist · image-maker</p>
+        <h1>Color with<br><em>something</em><br>to say.</h1>
+        <p class="hero-note">Portraits, painted spaces, objects, and shared creative experiences—made with close attention to people and place.</p>
+        <div class="hero-actions">
+          <a class="button button-hot" href="portfolio.html">View the portfolio</a>
+          <a class="text-link" href="#about">Meet Onnika <span>↘</span></a>
+        </div>
+      </div>
+      <p class="scroll-cue" aria-hidden="true">Scroll to explore ↓</p>
     </section>
 
-    <section class="manifesto" id="worlds">
-      <p class="section-label">The visual frequency</p>
+    <section class="about-home" id="about">
+      <p class="section-label">About the artist</p>
+      <div class="about-home-grid">
+        <h2>Open eyes.<br><span>Strong signal.</span></h2>
+        <div>
+          <p>Onnika creates expressive, personal work across portraits, painted spaces, objects, commissions, and live experiences. The through-line is warm, unguarded attention.</p>
+          <a class="text-link" href="https://onnika91.wixsite.com/onnikaleevart/s-projects-basic" target="_blank" rel="noreferrer">Visit Onnika’s Instagram feed <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto" id="work">
+      <div class="section-heading-row">
+        <p class="section-label">Selected work</p>
+        <a class="text-link light-link" href="portfolio.html">See the full portfolio <span>↗</span></a>
+      </div>
       <div class="manifesto-grid">
-        <h2>Not one style.<br><span>One force.</span></h2>
+        <h2>Many mediums.<br><span>One voice.</span></h2>
         <div class="manifesto-copy">
-          <p>Onnika’s work moves between observed life and inner weather. Faces carry histories. Rooms tilt into feeling. Ordinary objects become charged evidence.</p>
-          <p>The through-line is attention: warm, unguarded, exacting—and alive to what most people miss.</p>
+          <p>Faces carry histories. Rooms tilt into feeling. Ordinary objects become charged evidence.</p>
+          <p>Browse paintings, drawings, ceramic forms, installation work, and more in the portfolio.</p>
         </div>
       </div>
       <div class="world-strip" aria-label="Three paths through the artwork">
         <article class="world-card portrait-world">
           <img src="assets/24616c_592dba1dc9ce4e2e964a0a9703b430f9~mv2.jpeg" alt="Painted portrait of a person with curly hair and glasses">
-          <div><span>01 / PRESENCE</span><h3>Inner portraits</h3><p>People seen as full, complicated worlds.</p></div>
+          <div><span>01 / PORTRAIT</span><h3>People &amp; presence</h3><p>Portraits that hold a full, complicated world.</p></div>
         </article>
         <article class="world-card object-world">
           <img src="assets/24616c_f5a5bc95246b4ce59c7776236849c09c~mv2.jpg" alt="Expressive painting of a studio sink and scattered art materials">
-          <div><span>02 / MATTER</span><h3>Charged spaces</h3><p>Rooms and objects humming with memory.</p></div>
+          <div><span>02 / PAINTING</span><h3>Spaces &amp; objects</h3><p>Observed places humming with memory.</p></div>
         </article>
         <article class="world-card psi-world">
           <img src="assets/24616c_c967c193577f404086e2f5fe5b3aad4b~mv2.jpg" alt="Ceramic artwork depicting a figure with a sword surrounded by marks">
-          <div><span>03 / PSI</span><h3>Symbolic forms</h3><p>Image, vessel, archetype, and psychic armor.</p></div>
+          <div><span>03 / CERAMICS</span><h3>Symbolic forms</h3><p>Image, vessel, archetype, and armor.</p></div>
         </article>
       </div>
+    </section>
+
+    <section class="services-home" id="commissions">
+      <div class="services-home-copy">
+        <p class="section-label">Commissions &amp; creative services</p>
+        <h2>Made for a person,<br>place, or gathering.</h2>
+        <p>Custom commissions, murals, live-event painting, and hands-on instruction each begin with a different kind of conversation.</p>
+        <a class="button button-dark" href="services.html">Explore services</a>
+      </div>
+      <ol class="service-quick-list">
+        <li><span>01</span>Custom commissions</li>
+        <li><span>02</span>Live-event painting</li>
+        <li><span>03</span>Paint instruction &amp; paint-and-sip</li>
+        <li><span>04</span>Birthday &amp; private parties</li>
+        <li><span>05</span>Murals</li>
+      </ol>
     </section>
 
     <section class="print-lab" id="prints">
       <div class="print-heading">
         <div>
-          <p class="section-label">Print lab / local concept shop</p>
-          <h2>Take a signal<br>home.</h2>
+          <p class="section-label">Shop / print preview</p>
+          <h2>Browse the<br>print lab.</h2>
         </div>
-        <p>Build a print set by subject and display medium. Final titles, editions, sizes, prices, availability, and fulfillment stay with Onnika.</p>
+        <p>Preview selected work by subject and display medium. Final titles, editions, sizes, prices, availability, and fulfillment stay with Onnika.</p>
       </div>
 
       <div class="shop-controls" aria-label="Filter print collection">
         <fieldset data-filter-group="world">
-          <legend>Browse by world</legend>
+          <legend>Browse by subject</legend>
           <button class="filter active" type="button" data-filter="all" aria-pressed="true">All work</button>
           <button class="filter" type="button" data-filter="portrait" aria-pressed="false">Portraits</button>
           <button class="filter" type="button" data-filter="place" aria-pressed="false">Painted worlds</button>
-          <button class="filter" type="button" data-filter="symbol" aria-pressed="false">Psionic forms</button>
+          <button class="filter" type="button" data-filter="symbol" aria-pressed="false">Forms</button>
         </fieldset>
         <fieldset data-medium-group>
           <legend>Preview as</legend>
@@ -95,7 +124,7 @@
         </fieldset>
       </div>
 
-      <p class="results-line" aria-live="polite"><strong data-result-count>9</strong> signals tuned · previewing <span data-medium-label>fine-art paper</span></p>
+      <p class="results-line" aria-live="polite"><strong data-result-count>9</strong> works shown · previewing <span data-medium-label>fine-art paper</span></p>
       <div class="print-grid" data-print-grid>
         <article class="print-card wide" data-world="portrait" data-name="Between Moves">
           <div class="print-image"><img src="assets/24616c_8d76e27499b348969c921bb1641ddc5d~mv2.jpg" alt="Two painted figures seated back-to-back"></div>
@@ -107,7 +136,7 @@
         </article>
         <article class="print-card square" data-world="symbol" data-name="The Blade Knows">
           <div class="print-image"><img src="assets/24616c_c967c193577f404086e2f5fe5b3aad4b~mv2.jpg" alt="Ceramic figure holding a sword"></div>
-          <div class="print-meta"><div><span>Symbol / object</span><h3>The Blade Knows</h3></div><button type="button" class="collect">Add to print set <span>+</span></button></div>
+          <div class="print-meta"><div><span>Ceramic / object</span><h3>The Blade Knows</h3></div><button type="button" class="collect">Add to print set <span>+</span></button></div>
         </article>
         <article class="print-card wide" data-world="place" data-name="Blue House Memory">
           <div class="print-image"><img src="assets/24616c_d344648bdae843f0b573ff37b78eb851~mv2.jpg" alt="Expressive blue and rust painting of a house exterior"></div>
@@ -140,18 +169,25 @@
       <div class="artist-image"><img src="assets/24616c_d374c88c54a041bb978afd620e29d5b3~mv2.jpg" alt="Onnika smiling before a colorful mural"></div>
       <div class="artist-copy">
         <p class="section-label">Onnika Vanover / artist profile</p>
-        <h2>Open eyes.<br>Strong signal.</h2>
-        <p>Onnika creates expressive, personal work across portraits, painted spaces, objects, commissions, and live experiences. Her power is not distance or mystery—it is radical attention.</p>
-        <a class="button button-dark" href="#contact">Commission your own world</a>
+        <h2>Art built from<br>attention.</h2>
+        <p>Onnika works across painting, drawing, ceramics, installations, commissions, murals, and shared creative experiences.</p>
+        <div class="artist-actions">
+          <a class="button button-dark" href="portfolio.html">Browse portfolio</a>
+          <a class="text-link" href="services.html">View services <span>↗</span></a>
+        </div>
       </div>
     </section>
 
-    <section class="contact" id="contact">
-      <p class="kicker"><span></span> The portal is open</p>
-      <h2>Bring her the person,<br>place, animal, or feeling<br>you cannot forget.</h2>
+    <section class="contact" id="browse">
+      <p class="kicker"><span></span> Keep exploring</p>
+      <h2>Find the work,<br>service, or print<br>that speaks back.</h2>
       <div class="contact-bottom">
-        <a href="#top">Start a commission <span>↗</span></a>
-        <p>Local concept preview<br>Contact and purchase actions do not submit</p>
+        <div class="footer-links">
+          <a href="portfolio.html">Portfolio <span>↗</span></a>
+          <a href="services.html">Services <span>↗</span></a>
+          <a href="#prints">Shop <span>↑</span></a>
+        </div>
+        <p>Print lab is a preview<br>Purchase actions do not submit</p>
       </div>
     </section>
   </main>
@@ -161,4 +197,3 @@
   </aside>
 </body>
 </html>
-

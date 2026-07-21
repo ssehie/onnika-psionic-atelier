@@ -1,7 +1,9 @@
-# 07 — Psionic Atelier
+# Onnika Vanover — Psionic Atelier
 
-An art-led local concept for Onnika Vanover built from the visual language in her public portfolio: intimate portraiture, observed spaces, cyan/rust/pink color tension, tactile paint, symbolic objects, and strong self-possession.
+An art-led portfolio and services site for Onnika Vanover, published through GitHub Pages at:
 
-The print lab is an interactive catalog prototype. Visitors can filter by subject-world, preview three possible display media, and assemble a local print set. It intentionally provides no prices, editions, availability claims, checkout, submission, or fulfillment until Onnika approves those details.
+https://ssehie.github.io/onnika-psionic-atelier/
 
-All imagery is loaded from the preserved local public-source archive. Nothing is deployed and the archive is unchanged.
+The site includes a homepage, a portfolio organized by medium, a separate student-work area awaiting approved content, a services directory, and an interactive print-lab preview.
+
+The print lab intentionally provides no prices, editions, availability claims, checkout, submission, or fulfillment until Onnika approves those details. All imagery is loaded from the preserved public-source archive; the archive itself remains unchanged.
